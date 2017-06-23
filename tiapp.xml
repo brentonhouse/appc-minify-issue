@@ -11,7 +11,8 @@
 	<fullscreen>false</fullscreen>
 	<navbar-hidden>false</navbar-hidden>
 	<analytics>true</analytics>
-	<guid>84ff47b7-b359-4cdc-9111-9ae8cc67f874</guid>
+	<!--<guid>84ff47b7-b359-4cdc-9111-9ae8cc67f874</guid>-->
+	<guid>00000000-0000-0000-0000-000000000000</guid>
 	<property name="ti.ui.defaultunit" type="string">dp</property>
 	<property name="run-on-main-thread" type="bool">true</property>
 	<ios>
@@ -65,12 +66,13 @@
 		<target device="iphone">true</target>
 		<target device="mobileweb">true</target>
 	</deployment-targets>
+	<!--<sdk-version>6.0.4.GA</sdk-version>-->
 	<sdk-version>6.1.1.v20170615113917</sdk-version>
 	<plugins>
 		<plugin version="1.0">ti.alloy</plugin>
 		<plugin>hyperloop</plugin>
 	</plugins>
-	<property name="appc-app-id" type="string">594d193618e2d21382f66843</property>
+	<!--<property name="appc-app-id" type="string">594d193618e2d21382f66843</property>
 	<property name="appc-org-id" type="string">100000493</property>
-	<property name="appc-creator-user-id" type="string">24d83cf5-4b4f-41da-978a-38afb602b916</property>
+	<property name="appc-creator-user-id" type="string">24d83cf5-4b4f-41da-978a-38afb602b916</property>-->
 </ti:app>
