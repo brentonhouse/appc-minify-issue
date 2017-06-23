@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+	<id>appc.minify.issue</id>
+	<name>appc-minify-issue</name>
+	<version>1.0</version>
+	<publisher>not specified</publisher>
+	<url>unspecified</url>
+	<description/>
+	<copyright>not specified</copyright>
+	<icon>appicon.png</icon>
+	<fullscreen>false</fullscreen>
+	<navbar-hidden>false</navbar-hidden>
+	<analytics>true</analytics>
+	<guid>84ff47b7-b359-4cdc-9111-9ae8cc67f874</guid>
+	<property name="ti.ui.defaultunit" type="string">dp</property>
+	<property name="run-on-main-thread" type="bool">true</property>
+	<ios>
+		<enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+		<use-app-thinning>true</use-app-thinning>
+		<use-jscore-framework>true</use-jscore-framework>
+		<plist>
+			<dict>
+				<key>UISupportedInterfaceOrientations~iphone</key>
+				<array>
+					<string>UIInterfaceOrientationPortrait</string>
+				</array>
+				<key>UISupportedInterfaceOrientations~ipad</key>
+				<array>
+					<string>UIInterfaceOrientationPortrait</string>
+					<string>UIInterfaceOrientationPortraitUpsideDown</string>
+					<string>UIInterfaceOrientationLandscapeLeft</string>
+					<string>UIInterfaceOrientationLandscapeRight</string>
+				</array>
+				<key>UIRequiresPersistentWiFi</key>
+				<false/>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+				<key>UIStatusBarHidden</key>
+				<false/>
+				<key>UIStatusBarStyle</key>
+				<string>UIStatusBarStyleDefault</string>
+			</dict>
+		</plist>
+	</ios>
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+	</android>
+	<mobileweb>
+		<precache/>
+		<splash>
+			<enabled>true</enabled>
+			<inline-css-images>true</inline-css-images>
+		</splash>
+		<theme>default</theme>
+	</mobileweb>
+	<modules>
+		<module platform="android">hyperloop</module>
+		<module platform="iphone">hyperloop</module>
+		<module platform="android">com.appcelerator.apm</module>
+		<module platform="iphone">com.appcelerator.apm</module>
+		<module platform="commonjs">ti.cloud</module>
+	</modules>
+	<deployment-targets>
+		<target device="android">true</target>
+		<target device="ipad">true</target>
+		<target device="iphone">true</target>
+		<target device="mobileweb">true</target>
+	</deployment-targets>
+	<sdk-version>6.1.1.v20170615113917</sdk-version>
+	<plugins>
+		<plugin version="1.0">ti.alloy</plugin>
+		<plugin>hyperloop</plugin>
+	</plugins>
+	<property name="appc-app-id" type="string">594d193618e2d21382f66843</property>
+	<property name="appc-org-id" type="string">100000493</property>
+	<property name="appc-creator-user-id" type="string">24d83cf5-4b4f-41da-978a-38afb602b916</property>
+</ti:app>
